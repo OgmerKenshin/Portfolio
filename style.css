@@ -112,3 +112,27 @@ height: 90vh;
     min-height: 100px;
     box-shadow: 0 0 120px black;
 }
+
+.content h1{
+    font-size: clamp(1rem, 1rem + 5vw, 1.8rem);
+}
+
+.content h1 span{
+    font-weight: 700;
+    text-shadow: 0 0 12px #ff1100;
+    color: #ff1100;
+}
+
+.content .typewriter{
+    font-size: clamp(1rem, 1rem + 5vw, 2.5rem);
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.typewriter span{
+    color: #ff1100;
+    text-shadow: 0 0 12px #ff1100;
+}
+.contentp p{
+    font-size: clamp(0.8rem, 0.5rem + 3vw, 1.1rem);
+}
