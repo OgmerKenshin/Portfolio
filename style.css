@@ -208,4 +208,19 @@ height: 90vh;
         width: 60%;
         height: 70%;
     }
+
+    .content button{
+        margin: 15px 25%;
+    }
+}
+
+@media(max-width:440px){
+    .main-container .image{
+        width: 70%;
+        height: 60%;
+    }
+
+    .main-container .content{
+        width: 80%;
+    }
 }
